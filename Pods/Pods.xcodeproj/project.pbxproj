@@ -845,6 +845,7 @@
 		4C335EF7E11CD47A69F390534715BD15 /* UIImagePickerController+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+RACSignalSupport.h"; path = "ReactiveCocoa/UIImagePickerController+RACSignalSupport.h"; sourceTree = "<group>"; };
 		4C67DC06A901F6B2C33ABBB611E69A5D /* RACEmptySignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEmptySignal.h; path = ReactiveCocoa/RACEmptySignal.h; sourceTree = "<group>"; };
 		4D0099DA6DDE6F612746465076C0D2D9 /* FLEXManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXManager.h; path = Classes/ExplorerToolbar/FLEXManager.h; sourceTree = "<group>"; };
+		4D44ACA13D5214E355BCDD155E2DB8A8 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = "umsdk_IOS_analyics_no-idfa_v4.2.5/UMMobClick.framework"; sourceTree = "<group>"; };
 		4D945075DD9F3C884DAF77795CD793E9 /* ReachStateWIFI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReachStateWIFI.h; path = RealReachability/FSM/ReachStateWIFI.h; sourceTree = "<group>"; };
 		4DFB496B579FF2F627F37F22EF54A6E3 /* RACPassthroughSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACPassthroughSubscriber.h; path = ReactiveCocoa/RACPassthroughSubscriber.h; sourceTree = "<group>"; };
 		4E3B4AAC29290BAB0D52E48854C7E034 /* RACBlockTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACBlockTrampoline.m; path = ReactiveCocoa/RACBlockTrampoline.m; sourceTree = "<group>"; };
@@ -1134,7 +1135,6 @@
 		BEEB589BE6890C17868D98F1414106FB /* RACQueueScheduler+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACQueueScheduler+Subclass.h"; path = "ReactiveCocoa/RACQueueScheduler+Subclass.h"; sourceTree = "<group>"; };
 		BEF229C2CE874E0129367DE9D6B95AAF /* FLEXSystemLogMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSystemLogMessage.m; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogMessage.m; sourceTree = "<group>"; };
 		BF299321487FF3419A33945B321D17AA /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
-		BFCB5FF57EDB755EC039590F33A002F9 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = "umsdk_IOS_analyics_no-idfa_v4.1.9/UMMobClick.framework"; sourceTree = "<group>"; };
 		C01847150996320E43ABD0F836E41D28 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		C0C11E0C51D1EA5D4AE1746E3610C13E /* FLEXImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXImagePreviewViewController.h; path = Classes/ViewHierarchy/FLEXImagePreviewViewController.h; sourceTree = "<group>"; };
 		C10CCD0E48C85CCC046D0E9B00825AF7 /* FLEXSetExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSetExplorerViewController.m; path = Classes/ObjectExplorers/FLEXSetExplorerViewController.m; sourceTree = "<group>"; };
@@ -2083,7 +2083,7 @@
 		96A353C16EA3D2A51506F42C4CFF7494 /* UMengAnalytics-NO-IDFA */ = {
 			isa = PBXGroup;
 			children = (
-				9D6D46401DA4689010C20E7DE3307C4B /* Frameworks */,
+				BA87402C06F23418E9CCE01A91422046 /* Frameworks */,
 			);
 			name = "UMengAnalytics-NO-IDFA";
 			path = "UMengAnalytics-NO-IDFA";
@@ -2139,14 +2139,6 @@
 			);
 			name = CYLTabBarController;
 			path = CYLTabBarController;
-			sourceTree = "<group>";
-		};
-		9D6D46401DA4689010C20E7DE3307C4B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BFCB5FF57EDB755EC039590F33A002F9 /* UMMobClick.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A5CA754FB5C7EA514AF75AAA740936AA /* Support Files */ = {
@@ -2209,6 +2201,14 @@
 			isa = PBXGroup;
 			children = (
 				235B2F14AD293A5471F065C52DBED582 /* UMSocialCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA87402C06F23418E9CCE01A91422046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D44ACA13D5214E355BCDD155E2DB8A8 /* UMMobClick.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

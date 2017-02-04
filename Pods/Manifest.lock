@@ -23,7 +23,7 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.0.3):
     - CocoaLumberjack/Default
-  - CYLTabBarController (1.8.0)
+  - CYLTabBarController (1.10.0)
   - FLEX (2.1.1)
   - GTSDK (1.5.3)
   - JSONModel (1.0.2)
@@ -46,19 +46,19 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
-  - UMengAnalytics-NO-IDFA (4.1.9)
-  - UMengUShare/Core (6.1.2):
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - UMengUShare/Core (6.2.2):
     - UMengUShare/Network
-  - UMengUShare/Network (6.1.2)
-  - UMengUShare/Social/QQ (6.1.2):
+  - UMengUShare/Network (6.2.2)
+  - UMengUShare/Social/QQ (6.2.2):
     - UMengUShare/Core
-  - UMengUShare/Social/Sina (6.1.2):
+  - UMengUShare/Social/Sina (6.2.2):
     - UMengUShare/Core
-  - UMengUShare/Social/TencentWeibo (6.1.2):
+  - UMengUShare/Social/TencentWeibo (6.2.2):
     - UMengUShare/Core
-  - UMengUShare/Social/WeChat (6.1.2):
+  - UMengUShare/Social/WeChat (6.2.2):
     - UMengUShare/Core
-  - UMengUShare/UI (6.1.2):
+  - UMengUShare/UI (6.2.2):
     - UMengUShare/Core
   - XAspect (1.0.5):
     - XAspect/Core (= 1.0.5)
@@ -94,7 +94,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
-  CYLTabBarController: 3b6befc12bccc2fd29a4d69e3ad7f9c4aaaf4506
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
   GTSDK: 1b55fc5b0f29c7ea9061946f07aeee49ef70c90e
   JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
@@ -103,11 +103,11 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
-  UMengAnalytics-NO-IDFA: 985292af177111685325c90c321094172b95d2cb
-  UMengUShare: b8c38579f8a4f2ce8dfb0c944cf868022a441bd3
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  UMengUShare: fc0a98b8d5297632e82874318fd72a10d17da228
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 1a1214d7af614423c5c11d294058b79ae6cb3f45
+PODFILE CHECKSUM: d317cd4fcab5cdd67d560ca510062beb7a773913
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.0
